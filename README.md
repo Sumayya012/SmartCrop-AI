@@ -1,63 +1,35 @@
-🌾 SmartCrop-AI: AI-Based Plant Disease Detection
-🧩 Problem Statement
+# 🌾 SmartCropAI: Plant Disease Detection using Deep Learning
 
-Agriculture plays a crucial role in ensuring food security, but plant diseases lead to major crop losses worldwide. Farmers often lack tools to identify early symptoms, causing delays in treatment and reduced yield.
-There is a strong need for an AI-powered system that can automatically detect and classify plant diseases from leaf images, supporting sustainable and healthy farming practices.
+## ⭐ Overview
+**SmartCropAI** is an AI-based system designed to identify **15 common plant leaf diseases** from images using **Transfer Learning with MobileNetV2**.  
+Built as part of an **AI Internship Program**, this project demonstrates real-world application of deep learning in agriculture — enabling early crop disease detection and improved yield.
 
-🎯 Aim
+---
 
-To develop a Convolutional Neural Network (CNN)-based image classification model that can accurately detect and differentiate plant leaf diseases using image data.
+## ⚙️ How It Works
+1. **Input:** Leaf image captured by the user.  
+2. **Processing:** Image is preprocessed (resized, normalized).  
+3. **Model:** Processed through a fine-tuned **MobileNetV2 CNN**.  
+4. **Output:** Model predicts the disease class with confidence score.  
 
-🌍 Relevance to Sustainability
+---
 
-This project supports UN Sustainable Development Goal 2 – Zero Hunger and Goal 12 – Responsible Consumption and Production by promoting precision agriculture and reducing crop waste.
+## 🚀 Key Metrics
+| Metric | Value | Status |
+|---|---|---|
+| **Model** | MobileNetV2 (Transfer Learning) | ✅ |
+| **Dataset** | PlantVillage (15 Classes) | ✅ |
+| **Validation Accuracy** | **~89 %** | 📈 |
+| **Project Progress** | **60 %** | ⏳ |
 
-📊 Dataset
+---
 
-Name: PlantVillage Dataset
-Source: Kaggle - PlantVillage Dataset
+## 🛠️ Tools & Frameworks
+- **Deep Learning:** Python · TensorFlow · Keras  
+- **Data Handling:** NumPy · Matplotlib · Scikit-learn  
+- **Environment:** Google Colab (GPU-enabled)  
+- **Dataset:** [PlantVillage (Kaggle)](https://www.kaggle.com/datasets/emmarex/plantdisease)
 
-Description:
-A large collection of healthy and diseased plant leaf images across 38 classes. The dataset is widely used in agricultural AI research and is completely free and open-source.
+---
 
-🧠 Tools & Technologies
-
-Python
-
-TensorFlow / Keras
-
-Google Teachable Machine (for simple model training)
-
-Google Colab / Jupyter Notebook (for CNN implementation)
-
-GitHub (for version control & submission)
-
-🗓️ Week 1 Deliverables
-
-Selected sustainable project idea based on agriculture
-
-Finalized problem statement and dataset from Kaggle
-
-Understood CNN basics and working through online tutorials
-
-Planned future implementation workflow
-
-🚀 Next Steps (Week 2 Preview)
-
-Train dataset using CNN on Teachable Machine / Google Colab
-
-Evaluate model performance (accuracy, loss)
-
-Save trained model in .h5 format for deployment
-
-🧾 References
-
-Kaggle PlantVillage Dataset
-
-TensorFlow Documentation
-
-Google Teachable Machine
-
-AICTE – Edunet Internship Resources
-
-✅ Developed under AICTE–Edunet–Shell Internship Program (2025)
+## 🗂️ Project Structure

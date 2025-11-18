@@ -1,56 +1,53 @@
-# 🌟 Week 3 – Final Submission (100% Complete)
+# 🌾 SmartCropAI – Week 3 Final Submission (100%)
 
-## 📘 Summary: Model Fine-Tuning, Evaluation & Final Results
-Week 3 focused on improving and evaluating the SmartCropAI model by fine-tuning the last 30 layers of MobileNetV2, generating performance metrics, validation accuracy graphs, confusion matrix, and manual image prediction results.
-
-This marks the final submission of the core AI model.
+## 📘 Summary: Model Evaluation, Fine-Tuning & Final Results
+Week 3 focused on **fine-tuning MobileNetV2**, performing **full evaluation**, generating **performance reports**, and conducting **manual testing** on unseen images.  
+The model has now achieved strong generalization and is ready for deployment phase.
 
 ---
 
 ## 🎯 Key Achievements
 | Task | Status |
-|------|---------|
-| Fine-tuned final layers of MobileNetV2 | ✅ |
-| Improved model accuracy and reduced loss | ✅ |
-| Generated validation graphs & confusion matrix | ✅ |
-| Tested manual prediction (real leaf image upload) | ✅ |
-| Saved final model for deployment / next stage | ✅ |
+|------|--------|
+| Unfroze last 30 layers & fine-tuned | ✅ |
+| Evaluated model on validation dataset | ✅ |
+| Generated Accuracy & Loss plots | 📈 |
+| Created Confusion Matrix & Classification Report | 🧠 |
+| Manual image upload prediction testing | 🖼 |
+| Final model saved in `.keras` format | 📦 |
 
 ---
 
-## 📊 Final Performance
-| Metric | Result |
+## 📊 Final Model Performance
+| Metric | Value |
 |--------|--------|
-| **Final Validation Accuracy** | **90.72%** |
+| **Best Validation Accuracy** | **90.72%** |
 | **Final Validation Loss** | **0.2802** |
-| **Total Classes** | 15 |
-| **Model Architecture** | MobileNetV2 + Fine-Tuning |
+| **Classes Trained** | 15 |
+| **Dataset** | PlantVillage |
 
 ---
 
-## 🔍 Model Evaluation Outputs
-- 📈 Training & Validation Accuracy / Loss Graphs
-- 📉 Confusion Matrix & Classification Report
-- 🖼 Random Image Test & Manual Upload Test
+## 🖼 Evaluation Outputs
+### 🔹 Confusion Matrix
+![Confusion Matrix](ConfusionMatrix.png)
+
+### 🔹 Training Graphs (Accuracy & Loss)
+![Training Graphs](TrainingGraphs.png)
 
 ---
 
-## 💾 Deliverables
+## 💽 Final Deliverables
 | File | Description |
-|------|-------------|
-| `SmartCropAI.ipynb` | Full training, fine-tuning and testing notebook |
-| `SmartCropAI_FinalModel.keras` | Final model with best weights |
-| `class_map.json` | Class index to label mapping |
-| `confusion_matrix.png` | Confusion Matrix image output |
-| `Sample_Test_Results.png` | Manual image upload test |
+|------|------------|
+| `SmartCropAI_Final.ipynb` | Clean end-to-end notebook with removed bulky outputs |
+| `SmartCropAI_FinalModel.keras` | Saved trained model |
+| `SmartCropAI_ConfusionMatrix.png` | Class-wise performance heatmap |
+| `SmartCropAI_TrainingGraphs.png` | Accuracy & Loss visualization |
 
 ---
 
-## 🧠 Next Steps (Future Scope)
-- Convert `.keras` model to TFLite for mobile deployment
-- Build a web / mobile UI for real-world usage
-- Improve dataset diversity using real field images
+## 📍 Current Status
+> **Project Completion: 100% — Ready for deployment phase**
+> Final model, outputs, notebook & documentation completed under the AI Internship Project.
 
----
-
-> **Project Completion Status: 100% – AI Model Training & Evaluation successfully finished.**

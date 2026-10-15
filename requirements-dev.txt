@@ -1,0 +1,3 @@
+-r requirements-app.txt
+pytest>=8.0
+markdown-it-py>=3.0

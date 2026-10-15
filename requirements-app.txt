@@ -1,0 +1,7 @@
+# Recommended Python: 3.11 (the model was saved with Keras 3.10.0; TensorFlow 2.19 has no wheels for Python 3.14)
+streamlit>=1.50,<2
+tensorflow==2.19.0
+keras==3.10.0
+numpy<2.2
+Pillow>=10.0
+reportlab>=4.0

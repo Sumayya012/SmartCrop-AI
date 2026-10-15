@@ -23,35 +23,20 @@ Source code: [github.com/Sumayya012/SmartCrop-AI](https://github.com/Sumayya012/
 
 ---
 
+
 ## Application Preview
 
-<!--
-SCREENSHOTS NOT ADDED YET. Save real screenshots at the paths below, then delete this
-comment marker (the opening and closing lines) so the images render.
+### Home Page
+![SmartCrop AI Home Page](assets/screenshots/01-home.png)
 
-<p align="center">
-  <img src="assets/screenshots/01-home.png" alt="SmartCrop AI home screen" width="85%">
-</p>
+### Top-3 Disease Predictions
+![SmartCrop AI Prediction Results](assets/screenshots/03-top3-results.png)
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="assets/screenshots/02-upload.png" alt="Leaf image upload screen"><br>
-      <sub>Image upload</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/screenshots/03-top3-results.png" alt="Top-3 predictions with model scores"><br>
-      <sub>Top-3 predictions</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/screenshots/04-disease-library.png" alt="Disease information library and search"><br>
-      <sub>Disease library</sub>
-    </td>
-  </tr>
-</table>
--->
+### Disease Information Library
+![SmartCrop AI Disease Library](assets/screenshots/04-disease-library.png)
 
-Screenshots of the deployed application will be added here. In the meantime, the [live demo](https://smartcropai.streamlit.app/) shows the current interface.
+[**Try SmartCrop AI Live →**](https://smartcropai.streamlit.app/)
+
 
 ---
 

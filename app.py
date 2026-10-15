@@ -127,11 +127,31 @@ with tab_library:
             st.markdown("**General prevention practices**\n" + "\n".join(f"- {p}" for p in info.prevention))
     st.caption(SOURCE_NOTE)
 
-with tab_about:
-    st.markdown(
-        f"""**SmartCrop AI v{__version__}** uses a MobileNetV2 transfer-learning classifier trained on 15 PlantVillage classes
-(potato, pepper, tomato). Input: {config.IMAGE_SIZE[0]}×{config.IMAGE_SIZE[1]} RGB.
 
-This tool does not replace expert agricultural advice."""
+with tab_about:
+    st.title("About SmartCrop AI")
+    st.caption("AI-powered plant disease detection")
+
+    st.write(
+        "SmartCrop AI helps identify possible diseases in "
+        "potato, pepper, and tomato leaves using artificial intelligence."
     )
-    st.markdown(ABOUT_EVALUATION)
+
+    st.subheader("Features")
+    st.markdown(
+        """
+        - **Disease prediction** from uploaded leaf images
+        - **Top-3 predictions** for exploring possible results
+        - **Disease library** with plant disease information
+        - **PDF reports** for downloading prediction results
+        """
+    )
+
+    st.subheader("Technology")
+    st.write("Python · Streamlit · TensorFlow · MobileNetV2")
+
+    st.divider()
+    st.caption(
+        "SmartCrop AI is an educational project. Predictions are "
+        "indicative and should not replace expert agricultural advice."
+    )

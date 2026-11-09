@@ -273,6 +273,8 @@ GitHub: [@Sumayya012](https://github.com/Sumayya012)
 
 ## License
 
-A license has not been selected for this project yet.
+This project is licensed under the [MIT License](LICENSE). You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided the copyright notice and permission notice are included in all copies.
+
+Copyright (c) 2026 Mohammed Sumayya
 
 <!-- UNDECIDED: choose a license, add a LICENSE file to the repo root, then replace this section with the license name and a link to the file. -->
